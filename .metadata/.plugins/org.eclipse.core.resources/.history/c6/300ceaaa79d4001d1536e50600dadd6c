@@ -1,0 +1,23 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver; 
+public class Sample {
+	
+	public static void main(String[] args) {
+		//chorme drive path
+		//System.setProperty("webdriver.chrome.driver","E://Drive/chromedriver.exe");
+		// WebDriver driver = new ChromeDriver();
+		 
+		//Firfox Driver Path
+		 System.setProperty("webdriver.gecko.driver","E:\\Drive\\FirefoxDrive\\geckodriver.exe");
+		 WebDriver driver = new FirefoxDriver();
+		 
+		 //SeleniumCode
+		  driver.get("https://www.facebook.com/");
+		  System.out.println(driver.getTitle());
+		  System.out.println(driver.getCurrentUrl());
+		  driver.close();
+		  driver.quit();
+		  
+	}
+}

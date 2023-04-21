@@ -1,0 +1,12 @@
+
+
+public class sample {
+
+	public static void main(String[] args) {
+		
+		//Invoking Browser
+		ChromeDriver drive = new ChromeDriver();
+		
+	}
+
+}
