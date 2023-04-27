@@ -13,7 +13,7 @@ public class Sample {
 		// WebDriver driver = new FirefoxDriver();
 		 
 		 //SeleniumCode
-		  driver.get("https://www.facebook.com/");
+		  driver.get("https://rahulshettyacademy.com/");
 		  System.out.println(driver.getTitle());
 		  System.out.println(driver.getCurrentUrl());
 		  driver.close();
